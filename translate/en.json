@@ -19,6 +19,7 @@
    "youthAwarenessAndDevelopmentProgramsDescription": "Personal development programs targeting vulnerable youth and teenagers are designed to give young people tools for critical and creative thinking and active citizen position.",
    "communityEngagement": "Community Engagement",
    "urbanKids": "Urban Kids",
+   "urbanTeens":"Urban Teens",
    "newsMainTitle": "ELC start of season 2022-23",
    "newsMainTitleText": "The Early Years Development Center 'Urban Kids' has opened its doors for vulnerable families in Chisinau and its suburbs. From 5 to 9 September 2022, a series of opening lessons were held for 70 mothers and their 85 children, during which parents and children plunged into the atmosphere of learning and new discoveries that await them in the new season 2022-23. The special concept of parent-child integral education, piloted for many years, allows not only to create a strong bond in family relationships, but also to get to know each other much deeper and better, and to develop a whole set of skills and abilities necessary for subsequent schooling. The new season is unique as it is included in the large educational project 'Building Resilience in Vulnerable Communities 22-25' in which the model of integrated early childhood development will be thoroughly tested and studied on a number of levels and measurements. This project is carried out in close cooperation with partners from the UK and Bulgaria.",
    "newsOneTitle": "Preparing official launch of BRVC",
@@ -32,5 +33,11 @@
    "wayToSuccess": "Way to success",
    "wayToSuccessDescription": "Way to Success is a multi-dimensional two-year training program intended to equip and empower young people to be self-sustainable and resistant to manipulation, exploitation and risky behavior. This educational platform helps young people to understand their unique personal abilities and to develop life and professional skills.",
    "urbanWebDescription" : "We offer quality selective education for all ages. We work with children, adolescents, youth and adults. Knowledge gained from us, possible applications in practice. The practical skills that we are engaged in have a serious theoretical justification.",
-   "teamMoldova": "TEAM MOLDOVA"
+   "teamMoldova": "TEAM MOLDOVA",
+   "prepareForSuccess": "<a href='https://drive.google.com/file/d/1TGNlrq-7yHUWgMNLN4pZYDZohYtlidKz/view?usp=sharing' target='_blank'><img src='./image/download.png' alt=''>Prepare for Success</a>",
+   "attentionBook": "<a href='https://drive.google.com/file/d/1RREQEaHVhTNRGEzJqkB4V1tVxGNYz2BB/view?usp=sharing' target='_blank'><img src='./image/download.png' alt=''>Be careful</a>",
+   "newsThreeTitleTextPartOne" : "Focusing on bringing awareness, safe and healthy learning environment for teens and youth community, BOL and FSCI team has carried out at September 11 2022 a new season of teenagers’ club carried out at Urban Youth Center in Chisinau. Through Urban Teens Club young people are engaged to be more sensitive to risky behavior both on the street and in school, and are equipped to develop multiple spheres of their personality in order to develop active citizenship position and stable learning approach in school or college.",
+   "newsThreeTitleTextPartTwo" : "Within each meeting at Urban Teens there are offered both learning activity from social, emotional, intellectual or physical sphere, and safe recreation time carried out by well-equipped specialists from BOL. ",
+   "newsFourTitleTextPartOne" : "Taking into account the events taking place since February 24, 2022 in Ukraine and the resulting refugee crisis, the project team considered it necessary to expand the scope of this project so that citizens of Ukraine (mainly women and children) who have found temporary asylum on the territory of the Republic of Moldova, were actively included in the activities of the project 'Building resilience in vulnerable communities 2022-2025' ",
+   "newsTwoTitle": "Preparing official launch of BRVC"
 }

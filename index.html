@@ -28,10 +28,7 @@
   <!--Font Awsome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <title>BRVC</title>
 </head>
 
@@ -43,7 +40,8 @@
           <img src="image/people-with-hands.png" alt="" />
         </div>
         <div class="col-lg-6 page-title-content">
-          <h1 lng-tag="pageTitle"></h1>
+          <h1 lng-tag="pageTitle"> Building Resilience in Vulnerable <span class='text-coloration-bg'>Communities</span>
+          </h1>
           <p lng-tag="pageSubtitle">
             Innovative project with investment in knowledge exchange,
             evaluation, training, learning and dissemination and the
@@ -133,25 +131,34 @@
       </div>
       <div class="row about-content">
         <div class="col-6 about-text">
-          <h2 lng-tag="earlyDevelopmentCenter">Early Child Development Center</h2>
+          <div class="about-row-title">
+            <img src="./image/kids-logo.svg" alt="">  <h2 lng-tag="earlyDevelopmentCenter">Early Child Development Center</h2>
+          </div>
           <p lng-tag="earlyDevelopmentCenterDescription">
             Early Child Development Centers are offering educational assistance for vulnerable families and communities:
             Enabling children with limited or no parental input to access learning process within safe and stimulating
             environment. Center is offering also family support programs for single-parents and carers, and
             psycho-emotional assistance through art therapy.
           </p>
-          <h2 lng-tag="houseOfOpportunity">House of Opportunity</h2>
+          
+          <div class="about-row-title">
+            <img src="./image/youth-logo.svg" alt="">  <h2 lng-tag="houseOfOpportunity">House of Opportunity</h2>
+          </div>
           <p lng-tag="houseOfOpportunityDescription">
             “House of Opportunity” is targeting vulnerable individuals: Combating exploitation and trafficking and
             preventing poverty among at-risk young people, especially those leaving state and foster care, through
             residential training and support.
           </p>
-          <h2 lng-tag="youthAwarenessAndDevelopmentPrograms">Youth Awareness and Development Programs</h2>
-          <p lng-tag="youthAwarenessAndDevelopmentProgramsDescription">
+          <div class="about-row-title">
+            <img src="./image/youth-logo.svg" alt=""> <h2 lng-tag="youthAwarenessAndDevelopmentPrograms">Youth Awareness and Development Programs</h2>
+          </div>
+          <p class="about-paragraph" lng-tag="youthAwarenessAndDevelopmentProgramsDescription">
             Personal development programs targeting vulnerable youth and teenagers are designed to give young people
             tools for critical and creative thinking and active citizen position.
           </p>
-          <h2 lng-tag="communityEngagement">Community Engagement</h2>
+          <div class="about-row-title">
+            <img src="./image/therapy-logo.svg" alt=""> <h2 lng-tag="communityEngagement">Community Engagement</h2>
+          </div>
         </div>
         <div class="col-6"></div>
       </div>
@@ -227,10 +234,9 @@
                   </div>
                   <div class="news-small-top-row">
                     <div class="news-tag">
-                      <div>Urban Youth</div>
+                      <div>Urban</div>
                     </div>
                     <div>
-                      <img src="./image/kids-logo.svg" alt="" />
                     </div>
                   </div>
                   <div class="news-small-footer">
@@ -251,14 +257,14 @@
               <div class="small-news">
                 <div>
                   <div class="news-small-img">
-                    <img src="image/news-2.png" alt="" />
+                    <img src="image/news-3.png" alt="" />
                   </div>
                   <div class="news-small-top-row">
                     <div class="news-tag">
-                      <div>Urban Youth</div>
+                      <div lng-tag="urbanTeens">Urban Teens</div>
                     </div>
                     <div>
-                      <img src="./image/kids-logo.svg" alt="" />
+                      <img src="./image/teens-logo.svg" alt="" />
                     </div>
                   </div>
                   <div class="news-small-footer">
@@ -279,11 +285,11 @@
               <div class="small-news">
                 <div>
                   <div class="news-small-img">
-                    <img src="image/news-2.png" alt="" />
+                    <img src="image/news-4.png" alt="" />
                   </div>
                   <div class="news-small-top-row">
                     <div class="news-tag">
-                      <div>Urban Youth</div>
+                      <div>Urban Kids</div>
                     </div>
                     <div>
                       <img src="./image/kids-logo.svg" alt="" />
@@ -291,8 +297,7 @@
                   </div>
                   <div class="news-small-footer">
                     <div class="news-small-title" lng-tag="newsFourTitle">
-                      Brexit, Impeachment and Deglobalisation: The dawn of a
-                      New Age
+                      Inclusion of refugees from Ukraine into the program
                     </div>
                     <a class="read-more" href="4.html" lng-tag="readMore">Read more</a>
                     <div class="news-info">
@@ -309,7 +314,6 @@
       </div>
     </div>
   </div>
-
   <!--Impact-->
   <div class="main-container">
     <div class="inside-container">
@@ -341,7 +345,6 @@
       </div>
     </div>
   </div>
-
   <!--Book-->
   <div class="main-container">
     <div class="inside-container">
@@ -390,297 +393,451 @@
         </div>
       </div>
     </div>
-
-
-    <!--Download-->
-    <div class="main-container">
-      <div class="inside-container">
-        <div class="download-content">
-          <h1 lng-tag="educationMaterials">EDUCATION MATERIALS</h1>
-          <div class="row">
-            <div class="col-lg-8">
-              <h4>Manuals</h4>
-              <div class="arrow-wrapper">
-                <p lng-tag="educationMaterialsText">
-                  Our team during the last 10 years was developing series of training and educational materials that
-                  would be relevant and innovative tools for school and civil society awareness and personal formation,
-                  that would bring more resilience to various social threats and risks (exploitation, human trafficking,
-                  abuse and domestic violence). As one of the major results of the BRVC project will be a set of
-                  training materials that would cover both early child development and teen-n-youth social and emotional
-                  formation.
-                </p>
+  </div>
+  <!--Download-->
+  <div class="main-container">
+    <div class="inside-container">
+      <div class="download-content">
+        <h1 lng-tag="educationMaterials">EDUCATION MATERIALS</h1>
+        <div class="row">
+          <div class="col-lg-8">
+            <h4>Manuals</h4>
+            <div class="arrow-wrapper">
+              <p lng-tag="educationMaterialsText">
+                Our team during the last 10 years was developing series of training and educational materials that
+                would be relevant and innovative tools for school and civil society awareness and personal formation,
+                that would bring more resilience to various social threats and risks (exploitation, human trafficking,
+                abuse and domestic violence). As one of the major results of the BRVC project will be a set of
+                training materials that would cover both early child development and teen-n-youth social and emotional
+                formation.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <h4 lng-tag="wayToSuccess">Way to Success</h4>
+            <div class="arrow-wrapper">
+              <p lng-tag="wayToSuccessDescription">
+                Way to Success is a multi-dimensional two-year training program intended to equip and empower young
+                people to be self-sustainable and resistant to manipulation, exploitation and risky behavior. This
+                educational platform helps young people to understand their unique
+                personal abilities and to develop life and professional skills.
+              </p>
+              <div>
+                <img src="./image/arrow-left.png" alt="">
               </div>
             </div>
-            <div class="col-lg-8">
-              <h4 lng-tag="wayToSuccess">Way to Success</h4>
-              <div class="arrow-wrapper">
-                <p lng-tag="wayToSuccessDescription">
-                  Way to Success is a multi-dimensional two-year training program intended to equip and empower young
-                  people to be self-sustainable and resistant to manipulation, exploitation and risky behavior. This
-                  educational platform helps young people to understand their unique
-                  personal abilities and to develop life and professional skills.
-                </p>
-                <div>
-                  <img src="./image/arrow-left.png" alt="">
-                </div>
-              </div>
+          </div>
+          <div>
+            <img src="./image/arrow.png" alt="">
+            <div class="btn-outlined" lng-tag="prepareForSuccess">
+              PDF
             </div>
-            <div>
-              <img src="./image/arrow.png" alt="">
-              <a href="#">
-                <img src="./image/download.png" alt="">
-                PDF
-              </a>
+            <div class="btn-filled" lng-tag="attentionBook">
+              PDF
             </div>
           </div>
         </div>
       </div>
-
-      <!--Urban-->
-      <div class="main-container">
-        <div class="inside-container">
-          <div class="urban-content">
-            <h1 lng-tag="urban">URBAN</h1>
-            <div class="row">
-              <div class="col-lg-5">
-                <div class="urban-card-wrapper">
-                  <div class="urban-inst-info">
-                    <img src="./image/urban-logo.png" alt="">
-                    <div class="row">
-                      <div class="col-6">
-                        <div class="urban-link-inst">
-                          @urbancenter.md
-                        </div>
-                      </div>
-                      <div class="col-6">
-
-                      </div>
+    </div>
+  </div>
+  <!--Urban-->
+  <div class="main-container">
+    <div class="inside-container">
+      <div class="urban-content">
+        <h1 lng-tag="urban">URBAN</h1>
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="urban-card-wrapper">
+              <div class="urban-inst-info">
+                <img src="./image/urban-logo.png" alt="">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="urban-link-inst">
+                      @urbancenter.md
                     </div>
-                    <div class="urban-info-wrapper">
-                      <div class="urban-info-one">
-                        300+
-                        <div class="urban-info-text">
-                          POSTS
-                        </div>
-                      </div>
-                      <div class="urban-info-one">
-                        700+
-                        <div class="urban-info-text">
-                          FOLLOWERS
-                        </div>
-                      </div>
-                      <div class="urban-info-one">
-                        10000+ 
-                        <div class="urban-info-text">
-                          VIEWS 
-                        </div>
-                      </div>
+                  </div>
+                  <div class="col-6">
+
+                  </div>
+                </div>
+                <div class="urban-info-wrapper">
+                  <div class="urban-info-one">
+                    300+
+                    <div class="urban-info-text">
+                      POSTS
                     </div>
-                    <div class="btn-wrapper">
-                        <div class="btn-follow">
-                          FOLLOW US
-                        </div>
+                  </div>
+                  <div class="urban-info-one">
+                    700+
+                    <div class="urban-info-text">
+                      FOLLOWERS
+                    </div>
+                  </div>
+                  <div class="urban-info-one">
+                    10000+
+                    <div class="urban-info-text">
+                      VIEWS
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-7">
-                <div class="urban-card-left-wrapper">
-                  <div class="urban-inst-info-left">
-                    <img src="./image/urban-logo-left.png" alt="">      
-                    <div class="row">
-                      <div class="col-6">
-                        <div class="urban-link-inst">
-                          www.urbancenter.md
-                        </div>
-                      </div>
-                      <div class="col-6">
-
-                      </div>
-                    </div>              
-                  </div>
-                  <div class="urban-web-text" lng-tag="urbanWebDescription">
-                    We offer quality selective education for all ages. We work with children, adolescents, youth and adults. Knowledge gained from us, possible applications in practice. The practical skills that we are engaged in have a serious theoretical justification.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="urban-kids-wrapper">
-                  <div class="row">
-                    <div class="col-11">
-                      <div class="urban-kids-title">
-                        Urban Kids <img src="./image/kids-logo.svg" alt="">
-                      </div>
-                      <div class="urban-kids-link">
-                        www.urbancenter.md/kids
-                      </div>
-                    </div>
-                    <div class="col-1">
-                      <div class="urban-info-one kids">
-                        1250+ 
-                        <div class="urban-info-text">
-                          KIDS 
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    Corporate lectures, webinars and games for you and your employees! 
-                    We conduct psychological trainings and improve the soft skills of your employees.
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="urban-show-wrapper">
-                  <div class="urban-show-footer">
-                    <div class="urban-show-title">
-                      Urban Show <img src="./image/show-logo.png" alt="">
-                    </div>
-                    <div class="urban-show-link">
-                      www.urbancenter.md/show
-                    </div>
+                <div class="btn-wrapper">
+                  <div class="btn-follow">
+                    FOLLOW US
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div class="col-lg-7">
+            <div class="urban-card-left-wrapper">
+              <div class="urban-inst-info-left">
+                <img src="./image/urban-logo-left.png" alt="">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="urban-link-inst">
+                      www.urbancenter.md
+                    </div>
+                  </div>
+                  <div class="col-6">
+
+                  </div>
+                </div>
+              </div>
+              <div class="urban-web-text" lng-tag="urbanWebDescription">
+                We offer quality selective education for all ages. We work with children, adolescents, youth and
+                adults. Knowledge gained from us, possible applications in practice. The practical skills that we
+                are engaged in have a serious theoretical justification.
+              </div>
+            </div>
+          </div>
         </div>
-
-
-      <!--Team-->
-      <div class="main-container">
-        <div class="inside-container">
-          <div class="urban-content">
-            <h1 lng-tag="teamMoldova">TEAM MOLDOVA</h1>
-            <div class="swiper">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <div class="team-member-wrapper">
-                    <img src="./image/sergheiM.png" alt="">
-                    <div class="team-member-name">
-                      <div class="name">
-                        Serghei Mihailov
-                      </div>
-                      <div class="position">
-                        Executive director\ BRVC coordinator
-                      </div>
-                    </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="urban-kids-wrapper">
+              <div class="row">
+                <div class="col-11">
+                  <div class="urban-kids-title">
+                    Urban Kids <img src="./image/kids-logo.svg" alt="">
+                  </div>
+                  <div class="urban-kids-link">
+                    www.urbancenter.md/kids
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div class="team-member-wrapper">
-                    <img src="./image/sergheiM.png" alt="">
-                    <div class="team-member-name">
-                      <div class="name">
-                        Serghei Mihailov
-                      </div>
-                      <div class="position">
-                        Executive director\ BRVC coordinator
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="team-member-wrapper">
-                    <img src="./image/sergheiM.png" alt="">
-                    <div class="team-member-name">
-                      <div class="name">
-                        Serghei Mihailov
-                      </div>
-                      <div class="position">
-                        Executive director\ BRVC coordinator
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="team-member-wrapper">
-                    <img src="./image/sergheiM.png" alt="">
-                    <div class="team-member-name">
-                      <div class="name">
-                        Serghei Mihailov
-                      </div>
-                      <div class="position">
-                        Executive director\ BRVC coordinator
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="team-member-wrapper">
-                    <img src="./image/sergheiM.png" alt="">
-                    <div class="team-member-name">
-                      <div class="name">
-                        Serghei Mihailov
-                      </div>
-                      <div class="position">
-                        Executive director\ BRVC coordinator
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="team-member-wrapper">
-                    <img src="./image/sergheiM.png" alt="">
-                    <div class="team-member-name">
-                      <div class="name">
-                        Serghei Mihailov
-                      </div>
-                      <div class="position">
-                        Executive director\ BRVC coordinator
-                      </div>
+                <div class="col-1">
+                  <div class="urban-info-one kids">
+                    1250+
+                    <div class="urban-info-text">
+                      KIDS
                     </div>
                   </div>
                 </div>
               </div>
-              <!-- If we need pagination -->
-              <div class="swiper-pagination"></div>
-            
-              <!-- If we need navigation buttons -->
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
+              <div>
+                Corporate lectures, webinars and games for you and your employees!
+                We conduct psychological trainings and improve the soft skills of your employees.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="urban-show-wrapper">
+              <div class="urban-show-footer">
+                <div class="urban-show-title">
+                  Urban Show <img src="./image/show-logo.png" alt="">
+                </div>
+                <div class="urban-show-link">
+                  www.urbancenter.md/show
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-        <div class="footer main-container">
-          <!--Footer-->
-          <div class="inside-container footer-content">
-            <div class="social-icons">
-              <a href=""><span><i class="fab fa-twitter"></i></span></a>
-              <a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
-              <a href="#"><span><i class="fab fa-github-alt"></i></span></a>
-              <a href="#"><span><i class="fab fa-pinterest-p"></i></span></a>
-              <a href="#"><span><i class="fab fa-vimeo-v"></i></span></a>
-              <a href="#"><span><i class="fab fa-dribbble"></i></span></a>
-              <a href="#"><span><i class="fab fa-linkedin-in"></i></span></a>
-              <a href="#"><span><i class="fab fa-google-plus-g"></i></span></a>
+    </div>
+  </div>
+  <!--Team-->
+  <div class="main-container">
+    <div class="inside-container">
+      <div class="urban-content">
+        <h1 lng-tag="teamMoldova">TEAM MOLDOVA</h1>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="team-member-wrapper">
+                <img src="./image/VladimirUbeivolk.png" alt="">
+                <div class="team-member-name">
+                  <div class="name">
+                    Dr. Vladimir Ubeivolc
+                  </div>
+                  <div class="position">
+                    President of BOL, Educational expert
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="copyright">
-              © 2019 All Rights Reserved.<br />
-              Created by
-              <a href="https://www.webdomus.net/"><strong>Web Domus Italia</strong></a>
+            <div class="swiper-slide">
+              <div class="team-member-wrapper">
+                <img src="./image/SergheiMichailov.png" alt="">
+                <div class="team-member-name">
+                  <div class="name">
+                    Serghei Mihailov
+                  </div>
+                  <div class="position">
+                    Executive director\ BRVC coordinator
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="team-member-wrapper">
+                <img src="./image/YiluaUbeivolk.png" alt="">
+                <div class="team-member-name">
+                  <div class="name">
+                    Yulia Ubeyvolk
+                  </div>
+                  <div class="position">
+                    Psychologist, art-therapist, trainer
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="team-member-wrapper">
+                <img src="./image/AnnaUbeivolk.png" alt="">
+                <div class="team-member-name">
+                  <div class="name">
+                    Anna Ubeivolc
+                  </div>
+                  <div class="position">
+                    Methodologist
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="team-member-wrapper">
+                <img src="./image/OlgaVoronova.png" alt="">
+                <div class="team-member-name">
+                  <div class="name">
+                    Olga Voronova
+                  </div>
+                  <div class="position">
+                    Early Child Education Coordinator
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+        <h2>Youth and Teens Development</h2>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="team-member-wrapper">
+                <img src="./image/SergheiProcopov.png" alt="">
+                <div class="team-member-name">
+                  <div class="name">
+                    Serghei Procopov
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="team-member-wrapper">
+                <img src="./image/SercheiSemaev.png" alt="">
+                <div class="team-member-name">
+                  <div class="name">
+                    Serghei Semaev
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="team-member-wrapper">
+                <img src="./image/VeraCarapunarli.png" alt="">
+                <div class="team-member-name">
+                  <div class="name">
+                    Vera Carapunarli
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="team-member-wrapper">
+                <img src="./image/VitaliiGrecov.png" alt="">
+                <div class="team-member-name">
+                  <div class="name">
+                    Vitaliy Grecov
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="team-member-wrapper">
+                <img src="./image/PolinaSazonova.png" alt="">
+                <div class="team-member-name">
+                  <div class="name">
+                    Polina Sazonova
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>TEAM UK</h2>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="team-member-wrapper">
+                    <img src="./image/ChrisMould.png" alt="">
+                    <div class="team-member-name without-slider">
+                      <div class="name">
+                        Chris Mould
+                      </div>
+                      <div class="position">
+                        Founder of FSCI, Expert in social policy
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="team-member-wrapper">
+                    <img src="./image/RichardPtirson.png" alt="">
+                    <div class="team-member-name without-slider">
+                      <div class="name">
+                        Richard Parsons
+                      </div>
+                      <div class="position">
+                        Operations director
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-6">
+            <h1>TEAM BULGARIA</h1>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="team-member-wrapper">
+                  <img src="./image/Teodora.png" alt="">
+                  <div class="team-member-name without-slider">
+                    <div class="name">
+                      Teodora Koleva
+                    </div>
+                    <div class="position">
+                      CEO FSCI Bulgaria
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="team-member-wrapper">
+                  <img src="./image/Nikolai.png" alt="">
+                  <div class="team-member-name without-slider">
+                    <div class="name">
+                      Nicolai Zlatev
+                    </div>
+                    <div class="position">
+                      Therapist, Social assistance coordinator
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
 
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-        <script src="https://code.jquery.com/jquery-1.8.3.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-          crossorigin="anonymous"></script>
-        <script src="bootstrap/bootstrap.min.js"></script>
-        <!-- Translate JavaScript -->
-        <script src="js/index.js"></script>
-        <script src="js/translate.js"></script>
-        <script type="module" src="js/swiper.js"></script>
+
+      </div>
+    </div>
+  </div>
+  <!--Sponsors-->
+  <div class="main-container">
+    <div class="inside-container">
+      <div class="sponsors-wrapper">
+        <h1>
+          Our Sponsors
+        </h1>
+
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <a href="https://www.fscinet.org/what-we-do/brvc/" target="_blank"><img src="./image/FSCI-google.png"
+                alt=""></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Footer-->
+  <div class="footer main-container">
+    <div class="inside-container footer-content">
+      <div class="row top-links">
+        <div class="col-lg-3 logo-wrapper">
+          <img src="./image/logo-footer.png" alt="">
+        </div>
+        <div class="col-lg-3">
+          <div class="social-icons">
+            <a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
+            <a href="#"><span><i class="fab fa-pinterest-p"></i></span></a>
+            <a href="#"><span><i class="fab fa-youtube"></i></span></a>
+            <a href="#"><span><i class="fab fa-instagram"></i></span></a>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-phone">
+            +373(22)00-83-32
+          </div>
+          <div class="footer-email">
+            info@urbancenter.md
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-adress">
+            Chisinau MD, Moldova
+            <br>
+            ул. Pan Halippa, 1
+          </div>
+        </div>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d777.6984699091084!2d28.82867552069662!3d47.007912820046705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97e9d15c55557%3A0x306abbce760b8dbd!2sUrban%20Center!5e0!3m2!1sru!2s!4v1664625617693!5m2!1sru!2s"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="copyright">
+        © 2022 All rights reserved.<br />
+      </div>
+    </div>
+  </div>
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="bootstrap/bootstrap.min.js"></script>
+  <!-- Translate JavaScript -->
+  <script src="js/index.js"></script>
+  <script src="js/translate.js"></script>
+  <script type="module" src="js/swiper.js"></script>
 </body>
 
 </html>
