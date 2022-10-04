@@ -454,30 +454,6 @@ button {
    margin-left: 50px;
 }
 
-.page-title-content {
-   margin-top: 100px;
-   color: #FFFFFF;
-   font-family: 'Montserrat';
-   padding-right: 100px;
-}
-
-.page-title-content h1 {
-   font-style: normal;
-   font-weight: 700;
-   font-size: 53px;
-   line-height: 65px;
-   text-align: right;
-   color: #FFFFFF;
-}
-
-.page-title-content p {
-   font-style: normal;
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 16px;
-   text-align: right;
-   padding-left: 100px;
-}
 
 .content {
    padding-left: 25px;

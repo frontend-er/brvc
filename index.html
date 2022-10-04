@@ -34,7 +34,7 @@
 </head>
 
 <body id="page-top" onload="translate('en','lng-tag')">
-  <div class="main-container">
+  <div class="main-container" id="home">
     <div class="banner">
       <div class="row align-items-center">
         <div class="col-lg-6 banner-content">
@@ -59,14 +59,12 @@
     <div class="inside-container nav-contain">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="navbar-nav nav-list ml-auto">
-          <a class="menu" href="#" lng-tag="home"></a>
-          <a class="menu" href="#" lng-tag="about">ABOUT</a>
-          <a class="menu" href="#" lng-tag="news">NEWS</a>
-          <a class="menu" href="#" lng-tag="impact">IMPACT</a>
-          <a class="menu" href="#" lng-tag="team">TEAM</a>
-          <a class="menu" href="#" lng-tag="urban">URBAN</a>
-
-
+          <a class="menu" href="#home" lng-tag="home"></a>
+          <a class="menu" href="#about" lng-tag="about">ABOUT</a>
+          <a class="menu" href="#news" lng-tag="news">NEWS</a>
+          <a class="menu" href="#impact" lng-tag="impact">IMPACT</a>
+          <a class="menu" href="#urban" lng-tag="urban">URBAN</a>
+          <a class="menu" href="#team" lng-tag="team">TEAM</a>
           <div class="mobile-toggle-wrapper">
             <a class="mobile-toggle" id="enTranslator"> ENG </a>
             <div class="separator"></div>
@@ -91,12 +89,12 @@
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav nav-list ml-auto">
-            <a class="menu" href="#" lng-tag="home"></a>
-            <a class="menu" href="#" lng-tag="about">ABOUT</a>
-            <a class="menu" href="#" lng-tag="news">NEWS</a>
-            <a class="menu" href="#" lng-tag="impact">IMPACT</a>
-            <a class="menu" href="#" lng-tag="team">TEAM</a>
-            <a class="menu" href="#" lng-tag="urban">URBAN</a>
+            <a class="menu" href="#home" lng-tag="home"></a>
+            <a class="menu" href="#about" lng-tag="about">ABOUT</a>
+            <a class="menu" href="#news" lng-tag="news">NEWS</a>
+            <a class="menu" href="#impact" lng-tag="impact">IMPACT</a>
+            <a class="menu" href="#urban" lng-tag="urban">URBAN</a>
+            <a class="menu" href="#team" lng-tag="team">TEAM</a>
             <br>
             <br>
             <div class="mobile-toggle-wrapper">
@@ -110,7 +108,7 @@
     </div>
   </div>
   <!--About-->
-  <div class="main-container">
+  <div id="about" class="main-container">
     <div class="inside-container">
       <div class="row about-features">
         <h1 lng-tag="about">About</h1>
@@ -131,7 +129,7 @@
         </div>
       </div>
       <div class="row about-content">
-        <div class="col-6 about-text">
+        <div class="col-lg-6 about-text">
           <div class="about-row-title">
             <img src="./image/kids-logo.svg" alt="">
             <h2 lng-tag="earlyDevelopmentCenter">Early Child Development Center</h2>
@@ -165,12 +163,12 @@
             <h2 lng-tag="communityEngagement">Community Engagement</h2>
           </div>
         </div>
-        <div class="col-6"></div>
+        <div class="col-lg-6"></div>
       </div>
     </div>
   </div>
   <!--News-->
-  <div class="main-container features-sec">
+  <div class="main-container features-sec" id="news">
     <div class="inside-container features-row">
       <div class="row">
         <div class="col-lg-12">
@@ -316,7 +314,7 @@
     </div>
   </div>
   <!--Impact-->
-  <div class="main-container">
+  <div class="main-container" id="impact">
     <div class="inside-container">
       <div class="row impact-content">
         <div class="col-lg-4 about-text">
@@ -434,28 +432,28 @@
 
 
         <div class="row education-book-section">
-          <div class="col-lg-3">
+          <div class="col-lg-3 book-to-donlowad">
             <img src="./image/book-1.png" alt="">
             <div class="bnt-pdf-open">
               <!-- Trigger/Open The Modal -->
               <button id="myBtn">READ DEMO</button>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 book-to-donlowad">
             <img src="./image/book-2.png" alt="">
             <div class="bnt-pdf-open">
               <!-- Trigger/Open The Modal -->
               <button id="myBtn1">READ DEMO</button>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 book-to-donlowad">
             <img src="./image/book-3.png" alt="">
             <div class="bnt-pdf-open">
               <!-- Trigger/Open The Modal -->
               <button id="myBtn2">READ DEMO</button>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 book-to-donlowad">
             <img src="./image/book-4.png" alt="">
             <div class="bnt-pdf-open">
               <!-- Trigger/Open The Modal -->
@@ -467,7 +465,7 @@
     </div>
   </div>
   <!--Urban-->
-  <div class="main-container">
+  <div class="main-container" id="urban">
     <div class="inside-container">
       <div class="urban-content">
         <h1 lng-tag="urban">URBAN</h1>
@@ -477,12 +475,12 @@
               <div class="urban-inst-info">
                 <img src="./image/urban-logo.png" alt="">
                 <div class="row">
-                  <div class="col-6">
+                  <div class="col-lg-6">
                     <div class="urban-link-inst">
                       @urbancenter.md
                     </div>
                   </div>
-                  <div class="col-6">
+                  <div class="col-lg-6">
 
                   </div>
                 </div>
@@ -519,12 +517,12 @@
               <a href="https:/www.urbancenter.md" class="urban-inst-info-left" target="_blank">
                 <img src="./image/urban-logo-left.png" alt="">
                 <div class="row">
-                  <div class="col-6">
-                    <div class="urban-link-inst">
+                  <div class="col-lg-6">
+                    <div class="urban-link-inst web">
                       www.urbancenter.md
                     </div>
                   </div>
-                  <div class="col-6">
+                  <div class="col-lg-6">
 
                   </div>
                 </div>
@@ -541,7 +539,7 @@
           <div class="col-lg-6">
             <a href="https://www.urbancenter.md/kids" class="urban-kids-wrapper" target="_blank">
               <div class="row">
-                <div class="col-11">
+                <div class="col-lg-11">
                   <div class="urban-kids-title">
                     Urban Kids <img src="./image/kids-logo.svg" alt="">
                   </div>
@@ -549,7 +547,7 @@
                     www.urbancenter.md/kids
                   </div>
                 </div>
-                <div class="col-1">
+                <div class="col-lg-1">
                   <div class="urban-info-one kids">
                     1250+
                     <div class="urban-info-text">
@@ -581,7 +579,7 @@
     </div>
   </div>
   <!--Team-->
-  <div class="main-container">
+  <div class="main-container" id="team">
     <div class="inside-container">
       <div class="urban-content">
         <h1 lng-tag="teamMoldova">TEAM MOLDOVA</h1>
@@ -737,9 +735,9 @@
         </div>
         <h1>TEAM UK BULGARIA</h2>
 
-          <div class="row">
+          <div class="row justify-content-center">
             <div class="col-lg-6">
-              <div class="row">
+              <div class="row team-member-row">
                 <div class="col-lg-6">
                   <div class="team-member-wrapper">
                     <img src="./image/ChrisMould.png" alt="">
@@ -769,7 +767,7 @@
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="row">
+              <div class="row team-member-row">
                 <div class="col-lg-6">
                   <div class="team-member-wrapper">
                     <img src="./image/Teodora.png" alt="">
