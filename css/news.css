@@ -805,6 +805,11 @@ button {
    align-items: center;
 }
 
+.lng-wrapper {
+   display: flex;
+   align-items: center;
+}
+
 .copyright {
    margin-top: 120px;
    font-weight: 400;

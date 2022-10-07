@@ -1655,6 +1655,7 @@ a:hover {
 
 .team-member-wrapper img {
     max-height: 320px;
+    max-width: 2440px;
     height: 80%;
     width: 100%;
     z-index: 1;
@@ -1711,6 +1712,14 @@ a:hover {
     line-height: 61px;
     text-align: left;
     text-transform: uppercase;
+}
+
+.sponsors-wrapper h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
 }
 
 @media (max-width: 501px) {
