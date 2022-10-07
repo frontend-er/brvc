@@ -882,6 +882,34 @@ a:hover {
     }
 }
 
+@media (max-width: 452px) {
+    /*Banner*/
+    .one-big-news {
+        padding-left: 0px;
+        max-height: unset;
+    }
+
+    .one-big-news .news-img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 452px) {
+    /*Banner*/
+    .one-big-news {
+        padding-left: 0px;
+        max-height: unset;
+    }
+
+    .one-big-news .news-footer {
+        display: none;
+    }
+
+    .one-big-news .news-img img {
+        min-width: 202px !important;
+    }
+}
+
 .small-news {
     align-self: center;
     border-radius: 10px;
@@ -1655,7 +1683,7 @@ a:hover {
 
 .team-member-wrapper img {
     max-height: 320px;
-    max-width: 2440px;
+    max-width: 244px;
     height: 80%;
     width: 100%;
     z-index: 1;
