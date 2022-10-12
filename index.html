@@ -42,7 +42,10 @@
           <img src="image/people-with-hands.png" alt="" />
         </div>
         <div class="col-lg-6 page-title-content">
-          <h1 lng-tag="pageTitle"> Building Resilience in Vulnerable <span class='text-coloration-bg'>Communities</span>
+          <h1 lng-tag="pageTitle"> Building Resilience in Vulnerable <span
+            class="txt-rotate text-coloration-bg"
+            data-period="2000"
+            data-rotate='[ "Communities", "People", "Society" ]'></span>
           </h1>
           <p lng-tag="pageSubtitle">
             Innovative project with investment in knowledge exchange,
@@ -60,18 +63,18 @@
     <div class="inside-container nav-contain">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="navbar-nav nav-list ml-auto">
-          <a class="menu" href="#home" lng-tag="home"></a>
+          <a class="menu" href="#home" lng-tag="home">HOME</a>
           <a class="menu" href="#about" lng-tag="about">ABOUT</a>
           <a class="menu" href="#news" lng-tag="news">NEWS</a>
           <a class="menu" href="#impact" lng-tag="impact">IMPACT</a>
           <!-- <a class="menu" href="#urban" lng-tag="urban">URBAN</a> -->
           <a class="menu" href="#team" lng-tag="team">TEAM</a>
           <div class="mobile-toggle-wrapper">
-            <a class="mobile-toggle" id="enTranslator"> ENG </a>
+            <a class="mobile-toggle" id="enTranslator" style="color: #fff !important"> ENG </a>
             <div class="separator"></div>
-            <a class="mobile-toggle" id="mdTranslator"> RO </a>
+            <a class="mobile-toggle" id="mdTranslator" style="color: #fff !important"> RO </a>
             <div class="separator"></div>
-            <a class="mobile-toggle" id="ruTranslator"> RU </a>
+            <a class="mobile-toggle" id="ruTranslator" style="color: #fff !important"> RU </a>
           </div>
         </div>
       </nav>
@@ -101,13 +104,13 @@
             <br>
             <br>
             <div class="mobile-toggle-wrapper">
-              <a class="mobile-toggle" id="enTranslatorMobile" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+              <a class="mobile-toggle" id="enTranslatorMobile" data-toggle="collapse" data-target="#navbarNavAltMarkup"  style="color: #fff !important">
                 ENG </a>
               <div class="separator"></div>
-              <a class="mobile-toggle" id="mdTranslatorMobile" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+              <a class="mobile-toggle" id="mdTranslatorMobile" data-toggle="collapse" data-target="#navbarNavAltMarkup"  style="color: #fff !important">
                 RO </a>
               <div class="separator"></div>
-              <a class="mobile-toggle" id="ruTranslatorMobile" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+              <a class="mobile-toggle" id="ruTranslatorMobile" data-toggle="collapse" data-target="#navbarNavAltMarkup"  style="color: #fff !important">
                 RU </a>
             </div>
           </div>
@@ -116,7 +119,7 @@
     </div>
   </div>
   <!--About-->
-  <div id="about" class="main-container">
+  <div id="about" class="main-container about-main">
     <div class="inside-container">
       <div class="row about-features">
         <h1 lng-tag="about">About</h1>
@@ -177,7 +180,7 @@
   </div>
 
   <!--Book-->
-  <div class="main-container">
+  <div class="main-container book-main">
     <div class="inside-container">
       <div class=" book-content">
         <div class="row boot-text">
@@ -226,7 +229,7 @@
     </div>
   </div>
   <!--Impact-->
-  <div class="main-container" id="impact">
+  <div class="main-container  impact-main" id="impact">
     <div class="inside-container">
       <div class="row impact-content">
         <div class="col-lg-4 about-text">
@@ -257,7 +260,7 @@
     </div>
   </div>
   <!--About-->
-  <div id="about" class="main-container">
+  <div id="about" class="main-container about-text-main">
     <div class="inside-container">
       <div class="row about-content">
         <div class="col-lg-6 about-text">
@@ -310,7 +313,7 @@
     </div>
   </div>
   <!--Download-->
-  <div class="main-container">
+  <div class="main-container download-main">
     <div class="inside-container">
       <div class="download-content">
         <h1 lng-tag="educationMaterials">EDUCATION MATERIALS</h1>
@@ -381,7 +384,7 @@
     </div>
   </div>
   <!--News-->
-  <div class="main-container features-sec" id="news">
+  <div class="main-container features-sec news-main" id="news">
     <div class="inside-container features-row">
       <div class="row">
         <div class="col-lg-12">
@@ -644,7 +647,7 @@
     </div>
   </div> -->
   <!--Team-->
-  <div class="main-container" id="team">
+  <div class="main-container team-main" id="team">
     <div class="inside-container">
       <div class="urban-content">
         <h1 lng-tag="teamMoldova">TEAM MOLDOVA</h1>
@@ -990,6 +993,9 @@
   <script src="js/translate.js"></script>
   <script src="js/modal.js"></script>
   <script type="module" src="js/swiper.js"></script>
+  <!-- Animate JavaScript -->
+  <script type="module" src="js/typing.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
 </body>
 
 </html>
