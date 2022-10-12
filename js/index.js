@@ -1,61 +1,61 @@
 
-$(document).ready(function(){
-   //This is id of HTML element (English) with attribute lng-tag
-   $("#enTranslator").click(function(){
-     translate('en', 'lng-tag');
-   });
-   //This is id of HTML element (mdmer) with attribute lng-tag
-   $("#mdTranslator").click(function(){
-     translate('md', 'lng-tag');
-   });
-   $("#ruTranslator").click(function(){
+$(document).ready(function () {
+  //This is id of HTML element (English) with attribute lng-tag
+  $("#enTranslator").click(function () {
+    translate('en', 'lng-tag');
+  });
+  //This is id of HTML element (mdmer) with attribute lng-tag
+  $("#mdTranslator").click(function () {
+    translate('md', 'lng-tag');
+  });
+  $("#ruTranslator").click(function () {
     translate('ru', 'lng-tag');
   });
-   $("#enTranslatorMobile").click(function(){
-      translate('en', 'lng-tag');
-    });
-    $("#mdTranslatorMobile").click(function(){
-      translate('md', 'lng-tag');
-    });
-    $("#ruTranslatorMobile").click(function(){
-      translate('ru', 'lng-tag');
-    });
+  $("#enTranslatorMobile").click(function () {
+    translate('en', 'lng-tag');
+  });
+  $("#mdTranslatorMobile").click(function () {
+    translate('md', 'lng-tag');
+  });
+  $("#ruTranslatorMobile").click(function () {
+    translate('ru', 'lng-tag');
+  });
 });
 
-function translate(lng, tagAttr){
-   var translate = new Translate();
-   translate.init(tagAttr, lng);
-   translate.process();
-   if(lng == 'en'){
-     $("#enTranslator").css('color', '#FFFFFF');
-     $("#mdTranslator").css('color', '#424242');
-     $("#ruTranslator").css('color', '#424242');
-   } 
-   if(lng == 'md'){
-     $("#mdTranslator").css('color', '#FFFFFF');
-     $("#enTranslator").css('color', '#424242');
-     $("#ruTranslator").css('color', '#424242');
-   }
-   if(lng == 'ru'){
+function translate(lng, tagAttr) {
+  var translate = new Translate();
+  translate.init(tagAttr, lng);
+  translate.process();
+  if (lng == 'en') {
+    $("#enTranslator").css('color', '#FFFFFF');
+    $("#mdTranslator").css('color', '#424242');
+    $("#ruTranslator").css('color', '#424242');
+  }
+  if (lng == 'md') {
+    $("#mdTranslator").css('color', '#FFFFFF');
+    $("#enTranslator").css('color', '#424242');
+    $("#ruTranslator").css('color', '#424242');
+  }
+  if (lng == 'ru') {
     $("#ruTranslator").css('color', '#FFFFFF');
     $("#enTranslator").css('color', '#424242');
     $("#mdTranslator").css('color', '#424242');
   }
-   if(lng == 'en'){
-      $("#enTranslatorMobile").css('color', '#FFFFFF');
-      $("#mdTranslatorMobile").css('color', '#424242');
-      $("#ruTranslatorMobile").css('color', '#424242');
-    } 
-    if(lng == 'md'){
-      $("#mdTranslatorMobile").css('color', '#FFFFFF');
-      $("#enTranslatorMobile").css('color', '#424242');
-      $("#ruTranslatorMobile").css('color', '#424242');
-    }
-    if(lng == 'ru'){
-      $("#ruTranslatorMobile").css('color', '#FFFFFF');
-      $("#mdTranslatorMobile").css('color', '#424242');
-      $("#enTranslatorMobile").css('color', '#424242');
-    }
+  if (lng == 'en') {
+    $("#enTranslatorMobile").css('color', '#FFFFFF');
+    $("#mdTranslatorMobile").css('color', '#424242');
+    $("#ruTranslatorMobile").css('color', '#424242');
+  }
+  if (lng == 'md') {
+    $("#mdTranslatorMobile").css('color', '#FFFFFF');
+    $("#enTranslatorMobile").css('color', '#424242');
+    $("#ruTranslatorMobile").css('color', '#424242');
+  }
+  if (lng == 'ru') {
+    $("#ruTranslatorMobile").css('color', '#FFFFFF');
+    $("#mdTranslatorMobile").css('color', '#424242');
+    $("#enTranslatorMobile").css('color', '#424242');
+  }
 }
 
 
@@ -85,3 +85,13 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+$(document).ready(function () {
+  ScrollReveal().reveal('.about-main', { delay: 700 })
+  ScrollReveal().reveal('.book-main', { delay: 700 })
+  ScrollReveal().reveal('.impact-main', { delay: 700 })
+  ScrollReveal().reveal('.about-text-main', { delay: 700 })
+  ScrollReveal().reveal('.download-main', { delay: 700 })
+  ScrollReveal().reveal('.news-main', { delay: 700 })
+  ScrollReveal().reveal('.team-main', { delay: 700 })
+});
