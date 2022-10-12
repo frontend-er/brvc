@@ -716,6 +716,13 @@ a:hover {
     background-position: center;
 }
 
+
+
+.home-navbar {
+    position: sticky;
+    top: 0;
+}
+
 .about-content-footer {
     color: #fff;
     margin-bottom: 100px;
@@ -927,6 +934,7 @@ a:hover {
 }
 
 @media (max-width: 452px) {
+
     /*Banner*/
     .one-big-news {
         padding-left: 0px;
@@ -939,6 +947,7 @@ a:hover {
 }
 
 @media (max-width: 452px) {
+
     /*Banner*/
     .one-big-news {
         padding-left: 0px;
@@ -1219,7 +1228,6 @@ a:hover {
     color: #fff;
     padding-top: 160px;
     padding-bottom: 80px;
-    margin-top: 100px;
     display: block;
     text-align: left;
     font-family: 'Montserrat';
@@ -1229,6 +1237,41 @@ a:hover {
     background-position: center;
     height: 858px;
     margin: 100px 30px 70px 30px;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+.button-to-top-blue {
+    background-color: #83377E;
+    border: none;
+    border-radius: 100px;
+    width: 45px;
+    height: 45px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.button-to-top-blue:hover {
+    background-color: #91358b;
+}
+
+
+@media (max-width: 501px) {
+    .book-content {
+        background-image: none;
+        background-color: #121212;
+        height: auto;
+        margin: 0px;
+
+    }
 }
 
 .book-content h4 {

@@ -56,7 +56,7 @@
     </div>
   </div>
   <!--Navbar Desktop-->
-  <div class="main-container desktop-nav nav-bkg-color hidden-md-down to d-none d-lg-block">
+  <div class="main-container home-navbar desktop-nav nav-bkg-color hidden-md-down to d-none d-lg-block">
     <div class="inside-container nav-contain">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="navbar-nav nav-list ml-auto">
@@ -91,8 +91,8 @@
         </div>
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav nav-list ml-auto">
-            <a class="menu" href="#home" lng-tag="home"></a>
+          <div class="navbar-nav nav-list ml-auto" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+            <a class="menu" href="#home" lng-tag="home">HOME</a>
             <a class="menu" href="#about" lng-tag="about">ABOUT</a>
             <a class="menu" href="#news" lng-tag="news">NEWS</a>
             <a class="menu" href="#impact" lng-tag="impact">IMPACT</a>
@@ -101,11 +101,14 @@
             <br>
             <br>
             <div class="mobile-toggle-wrapper">
-              <a class="mobile-toggle" id="enTranslatorMobile"> ENG </a>
+              <a class="mobile-toggle" id="enTranslatorMobile" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+                ENG </a>
               <div class="separator"></div>
-              <a class="mobile-toggle" id="mdTranslatorMobile"> RO </a>
+              <a class="mobile-toggle" id="mdTranslatorMobile" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+                RO </a>
               <div class="separator"></div>
-              <a class="mobile-toggle" id="ruTranslatorMobile"> RU </a>
+              <a class="mobile-toggle" id="ruTranslatorMobile" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+                RU </a>
             </div>
           </div>
         </div>
@@ -238,7 +241,7 @@
         <div class="col-lg-4">
           <img src="./image/impact.svg" alt="" />
         </div>
-        <div class="col-lg">
+        <div class="col-lg" lng-tag="impactIMG">
           <img src="./image/impact-text.svg" alt="" />
         </div>
       </div>
@@ -296,7 +299,8 @@
           <h2 lng-tag="communityEngagement">Community Engagement</h2>
         </div>
         <p class="about-paragraph" lng-tag="communityEngagementsDescription">
-          Educating, equipping and involving citizens from local communities in assessment of the local situation, finding
+          Educating, equipping and involving citizens from local communities in assessment of the local situation,
+          finding
           mechanisms and opportunities for improving quality of life on individual, group and community level. Project
           activities are based on the principle of voluntary collaboration between local authorities and civil society
           organizations and local initiative groups. All participants will receive the methodological and organizational
@@ -936,6 +940,10 @@
       </div>
     </div>
   </div>
+  <!-- Back to top button -->
+  <button type="button" class="btn btn-danger btn-floating btn-lg button-to-top-blue" id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
 
   <!-- The Modal -->
   <div id="myModal" class="modal">
