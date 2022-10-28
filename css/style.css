@@ -1480,6 +1480,40 @@ a:hover {
     .urban-content h1 {
         font-size: 43px;
     }
+
+    h1 {
+        font-size: 33px !important;
+        line-height: 45px !important;
+    }
+
+    .page-logo {
+        font-size: 33px !important;
+    }
+
+    .about-paragrap {
+        font-size: 16px !important;
+        line-height: 20px;
+    }
+
+    h2 {
+        font-size: 20px !important;
+    }
+
+    .about-paragraph {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+
+    .about-text p {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .urban-info-one {
+        display: none;
+    }
 }
 
 .urban-card-wrapper {
