@@ -716,6 +716,13 @@ a:hover {
     background-position: center;
 }
 
+@media (max-width: 991px) {
+    .about-content {
+    background-image: url(../image/about-bg-mobile.png);
+
+    }
+}
+
 
 
 .home-navbar {
