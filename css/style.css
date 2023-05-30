@@ -1991,3 +1991,10 @@ a:hover {
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
 }
+
+.small-img {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    object-fit: cover;
+}
