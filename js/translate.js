@@ -30,5 +30,5 @@ function Translate() {
 			}
 		}
 		xrhFile.send();
-    }
+	}
 }
