@@ -932,9 +932,9 @@ a:hover {
 }
 
 .news-img {
-    border-radius: 10px !important;
+    border-radius: 10px;
     overflow: hidden;
-    margin: 10px !important;
+    margin: 10px ;
 }
 .news-img img{
     padding: 0 !important;
